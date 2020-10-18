@@ -1,1 +1,1 @@
-# Finance Logger App Using TypeScript 
+# Finance Logger App Using TypeScript
