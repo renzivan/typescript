@@ -8,6 +8,7 @@ $ npm install -g typescript
 ```
 
 ### Lesson 2: Compiling TypeScript
+
 ```
 # Compile
 $ tsc <file.ts> <file.js>
