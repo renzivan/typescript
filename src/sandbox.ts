@@ -1,20 +1,10 @@
-let greet: Function
+type StringOrNum = string | number
+type objWithName = { name: string, uid: StringOrNum }
 
-greet = () => {
-  console.log('Hello, world')
+const logDetails = (uid: StringOrNum, item: string) => {
+  console.log(`${item} has uid of ${uid}`)
 }
 
-// set optional = c?: number | string
-const add = (a: number, b: number, c: number | string = ''): void => {
-  console.log(a + b)
-  console.log(c)
+const greet = (user: objWithName) => {
+  console.log(`${user.name} says hello`)
 }
-
-add(5, 2, 52)
-
-const minus = (a: number, b: number): number => {
-  return a + b
-}
-
-let result = minus(10, 7)
-
