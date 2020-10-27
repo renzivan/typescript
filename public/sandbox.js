@@ -1,7 +1,22 @@
 "use strict";
-var logDetails = function (uid, item) {
-    console.log(item + " has uid of " + uid);
+// let greet: Function
+// example 1
+var greet;
+greet = function (name, greeting) {
+    console.log(name + " says " + greeting);
 };
-var greet = function (user) {
-    console.log(user.name + " says hello");
+// example 2
+var calc;
+calc = function (x, y, action) {
+    if (action === '+') {
+        return x + y;
+    }
+    else {
+        return 0;
+    }
+};
+// example 3
+var logDetails;
+logDetails = function (ninja) {
+    console.log(ninja.name + " is " + ninja.age + " years old");
 };
